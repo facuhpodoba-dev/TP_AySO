@@ -1,0 +1,101 @@
+pwd
+ls
+man ls
+ls -a
+ls -l -a
+exit
+ssh-keygen
+cat $HOME/.ssh/id_rsa.pub
+ssh-keygen
+cat $HOME/.ssh/id_rsa.pub
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:facuhpodoba-dev/TP_AySO.git
+cd TP_AySO/
+ls -l
+cat /etc/passwd
+man grep
+grep -i Ubuntu /etc/passwd
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l
+git add .
+git config --global user.email "facuhpodoba@gmail.com"
+git config --global user.name "facuhpodoba"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git add .
+ls - l
+[200~
+git push
+git status
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+cat info_pc.txt
+git add info_pc.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+grep -v "nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+cat <<EOF >> README.md
+
+Alumno: <Facundo Podoba>
+División: <División 115>
+Turno: <Turno mañana>
+EOF
+
+cat README.md
+git add README.md
+git commit -m "docs: Agregando información del alumno al README"
+git push
+cat << FIN >> README.md
+Alumno: Facundo Podoba
+Division: 115
+Turno: Mañana
+FIN
+
+git add README.md
+git push
+cat <<EOF > README.md
+
+Alumno: Facundo Podoba
+División: 115
+Turno: Mañana
+EOF
+
+cat README.md
+git add README.md
+git commit -m "docs: Agregando información del alumno al README"
+git push
+cd
+mkdir -p TP1/{arquitectura/Clase{1,2,3,4,5},so/Clase{1,2,3,4,5,6}}
+tree TP1
+sudo apt install tree
+tree TP1
+sudo tree TP1
+sudo apt install tree
+sudo apt update
+cd
+tree TP1
+sudo apt install -y tree
+tree --version
+cd
+tree TP1
+echo 'mkdir -p TP1/{arquitectura/Clase{1,2,3,4,5},so/Clase{1,2,3,4,5,6}}' > script_dir.sh
+chmod +x script_dir.sh
+git add script_dir.sh
+mv script_dir.sh [200~
+mv script_dir.sh ~/repogit/TP_AySO/
+ls
+rm ''$'\033''[200~'
+ls
+cd ~/repogit/TP_AySO/
+ls
+echo 'mkdir -p TP1/{arquitectura/Clase{1,2,3,4,5},so/Clase{1,2,3,4,5,6}}' > script_dir.sh
+chmod +x script_dir.sh
+git add script_dir.sh
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
